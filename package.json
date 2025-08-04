@@ -1,0 +1,14 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Its a learning react project",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aditya Upadhyay",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
