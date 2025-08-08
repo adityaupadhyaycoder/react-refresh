@@ -35,3 +35,8 @@ Browserslist is a configuration in `package.json` that specifies which browsers 
 ]
 ```
 
+# npm start == npm run start 
+it is only reserverd for the start, we dont need to use run
+
+
+
