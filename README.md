@@ -76,3 +76,6 @@ Babel is a JavaScript compiler (transpiler) used to convert modern JavaScript (E
 
 # Functional Component 
 - A JS function which returns JSX or React Element;
+
+# Props
+- Passing props means passing args in function
