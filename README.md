@@ -79,3 +79,26 @@ Babel is a JavaScript compiler (transpiler) used to convert modern JavaScript (E
 
 # Props
 - Passing props means passing args in function
+
+# Config Driven UI
+-
+
+# Use of key in the map function in JSX
+- Never use index as key
+- Always use unique id
+
+# React hooks
+- Normal js function
+- useState
+- useEffect
+- When ever  state variable change, React rerenders the component.
+
+# useEffect
+- Runs after the component renders
+- 
+
+# Conditional Rendering
+- show component based on conditions;
+
+# When a state change that component rerender again, but dom is updated only for the changed element.
+
