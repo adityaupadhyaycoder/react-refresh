@@ -1,7 +1,8 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 
 const Body = () => {
+  const [inputValue, setInputValue] = useState("");
   useEffect(() => {
     fetchData();
   }, []);
@@ -12,6 +13,14 @@ const Body = () => {
   };
   return (
     <div className="card-wrapper">
+      <input
+        type="text"
+        value={inputValue}
+        onChange={(e) => {
+          setInputValue(e.target.value);
+        }}
+      />
+      {inputValue}
       {RestaurantCard({ name: "Pizza House", rating: 4.4 })}
       <RestaurantCard name="KFC" rating="4.3" />
     </div>
