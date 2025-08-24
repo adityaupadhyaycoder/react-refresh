@@ -92,13 +92,19 @@ Babel is a JavaScript compiler (transpiler) used to convert modern JavaScript (E
 - useState
 - useEffect
 - When ever  state variable change, React rerenders the component.
+- Always call hooks inside body of the function component.
+- Always put local state variable at the top.
+- Never create useState inside any condition if or else, function or for loop .
 
 # useEffect
-- Runs after the component renders
-- 
+- Runs after the component renders 
+- If no dependecy array => useEffect is called on every render
+- If dependecy array is empty = [] => useEffect is called on initial render(just once)
+- if dependecy array is [btnName] => useEffect is called everytime btnName updated
 
 # Conditional Rendering
 - show component based on conditions;
 
-# When a state change that component rerender again, but dom is updated only for the changed element.
+# Point To Remember
+- When a state change that component rerender again, but dom is updated only for the changed element.
 
